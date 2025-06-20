@@ -280,6 +280,14 @@ For models compatible with Cambricon Extension for PyTorch (torch_mlu). Here's a
 
 ```python main.py```
 
+OR
+
+```python main.py --cpu``` You can try this if you can't run with gpu
+
+OR
+
+```cmd /c "set KMP_DUPLICATE_LIB_OK=TRUE && python main.py"``` You can try this got Error #15
+
 ### For AMD cards not officially supported by ROCm
 
 Try running it with this command if you have issues:
