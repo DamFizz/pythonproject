@@ -198,6 +198,10 @@ This is the command to install the nightly with ROCm 6.3 which might have some p
 
 2. Launch ComfyUI by running `python main.py`
 
+Alternatif if u got the (OMP: Error #15:)
+
+You can try to run: cmd /c "set KMP_DUPLICATE_LIB_OK=TRUE && python main.py"
+
 
 (Option 2) Alternatively, Intel GPUs supported by Intel Extension for PyTorch (IPEX) can leverage IPEX for improved performance.
 
