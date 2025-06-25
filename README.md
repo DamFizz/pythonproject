@@ -282,7 +282,7 @@ For models compatible with Cambricon Extension for PyTorch (torch_mlu). Here's a
 
 OR
 
-```python main.py --cpu``` You can try this if you can't run with gpu
+```python main.py --cpu``` You can try this if you can't run with gpu or your gpu not listed
 
 OR
 
